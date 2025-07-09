@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: gateway-server-application
+  cloud:
+    config:
+      name: gateway-server-application, swagger
+      uri: http://localhost:1000
+      fail-fast: true
